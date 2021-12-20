@@ -9,3 +9,8 @@ you should make a new folder for every topic of learning
 # contend
 
 * unity
+* rl
+    * openai-spinningup
+* tools
+    * repeatwork
+    
