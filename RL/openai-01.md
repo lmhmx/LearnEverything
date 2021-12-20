@@ -26,3 +26,34 @@ VPG, DDPG, TD3, SAC
 
 # key Concepts in RL
 
+* be attention that observations and states are different.
+* actions can be continuous or discrete which need different families of algorithm
+* policy can be deterministic or stochastic
+    * stochastic policies include diagonal Gaussian policies for continuous spaces and categorical policies for discrete spaces.
+        * we have to do two things: sample and compute log likelyhoods
+        * categorical sample: refer to the pytorch docs
+        * categorical likelyhoods: it is just the indices
+        * diagonal Gaussian sample: get the mean from nn, two ways to get the standard deviations
+            * given the standard deviations
+            * nn to get it
+        * > note that the standard deviations are represented by log because it ranges from $-\infty$ to $+\infty$ and it is better to be calculated.
+* Trajectory is a sequence of states and actions
+   * > Trajectory are also called episodes or rollouts.
+* reward is a function of $s_t,a_t,s_{t+1}$, but it is often be simplified by $s_t$ or $s_t, a_t$. return is the cumulative reward over a trajectory. $$R(\tau)=\sum_{t=0}^T r_t $$ it can also be discounted $$R(\tau)=\sum_{t=0}^T \gamma^t r_t$$
+* value function
+* advantage functions $$A^\pi (s,a)=Q^\pi(s,a)-V^\pi(s)$$
+
+# kinds of RL Algorithms
+
+* model-based and model-free
+
+## what to learn
+
+* policies
+* action-value functions(Q-functions)
+* value functions
+* environment models
+
+# papers
+
+you can find the needed papers in the website
