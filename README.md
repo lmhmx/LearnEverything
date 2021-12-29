@@ -13,4 +13,4 @@ you should make a new folder for every topic of learning
     * openai-spinningup
 * tools
     * repeatwork
-    
+    * passwd
