@@ -14,3 +14,4 @@ you should make a new folder for every topic of learning
 * tools
     * repeatwork
     * passwd
+* vscode
