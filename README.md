@@ -15,3 +15,6 @@ you should make a new folder for every topic of learning
     * repeatwork
     * passwd
 * vscode
+* cmd
+    * 命令行传递参数问题
+    
