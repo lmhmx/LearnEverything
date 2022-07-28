@@ -1,6 +1,4 @@
-# str
+# content
 
-## format
-
-* `"{:^ns}"`居中对齐，`"{:<ns}"`左对齐，`"{:>ns}"`右对齐
-* `"{:ns}".format(str)`对字符串进行格式化操作
+* [string format](./string_format.md)
+* [return value](./return_value.md)

@@ -16,6 +16,7 @@ you should make a new folder for every topic of learning
     * repeatwork
     * passwd
 * vscode
+
 * mail
     * 配置邮箱客户端
 * git
@@ -25,3 +26,6 @@ you should make a new folder for every topic of learning
     * 格式化字符串
 * ubuntu
     * 输入法问题
+
+* cmd
+    * 命令行传递参数问题
